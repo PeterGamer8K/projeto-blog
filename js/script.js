@@ -1,3 +1,4 @@
+//função main que é executada assim quando a página é carregada
 function main() {
   const toggleButton = document.querySelector("#toggle-button")
   toggleButton.addEventListener("change", (event) => {
@@ -5,7 +6,7 @@ function main() {
     toggleTheme(buttonIsChecked ? "dark" : "light")
   })
 }
-
+//função que adiciona a classe de dark ou light no html dependendo o que o usuário escolheu
 function toggleTheme(theme) {
   const htmlElement = document.querySelector("html")
 

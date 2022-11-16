@@ -141,7 +141,7 @@ footer {
   flex-wrap: wrap;
   align-items: center;
 }
-/* The switch - the box around the slider */
+/* Código para o switch button */
 .switch {
   position: relative;
   display: inline-block;
@@ -149,14 +149,13 @@ footer {
   height: 34px;
 }
 
-/* Hide default HTML checkbox */
+/* Esconde o input do html padrão */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -188,14 +187,13 @@ input:checked + .slider {
 input:focus + .slider {
   box-shadow: 0 0 1px #2196f3;
 }
-
+/* Esse block adiciona a animação ao switch */
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
